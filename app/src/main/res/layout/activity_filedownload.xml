@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <Button android:text="Start Download" android:id="@+id/button1"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:onClick="onClick">
+
+        </Button>
+    <Button android:text="View Downloads" android:id="@+id/button2"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:onClick="showDownload">
+
+        </Button>
+    <ImageView android:layout_height="wrap_content" android:id="@+id/imageView1"
+        android:src="@drawable/ic_launcher" android:layout_width="wrap_content">
+
+        </ImageView>
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="This section is for uploading files"
+        />
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get First File">
+    </Button>
+    <Button
+        android:id="@+id/Button02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Second File">
+    </Button>
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Upload">
+    </Button>
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Selected File path : "
+        />
+
+    <TextView
+        android:id="@+id/res"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+</LinearLayout>
